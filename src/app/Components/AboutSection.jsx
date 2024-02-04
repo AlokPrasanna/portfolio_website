@@ -15,6 +15,7 @@ const TabData =[
                 <li>HTML5</li>
                 <li>CSS</li>
                 <li>JAVA</li>
+                <li>Python</li>
                 <li>SQL</li>
                 <li>Arduino</li>
             </ul>
@@ -73,7 +74,7 @@ const AboutSection = () => {
             <Image src='/Images/about-image.png' alt='left-image' width={500} height={500} />
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full ' >
                 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
-                <p className='text-base lg:text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident corporis tempore dolores optio esse temporibus quasi explicabo voluptatibus nulla quo cupiditate voluptatem ut consectetur nesciunt praesentium similique necessitatibus, eligendi deleniti dignissimos earum. Repudiandae vero dolore ad hic repellendus? Sint.
+                <p className='text-base lg:text-lg'> As a full-stack web developer, I craft engaging web experiences, eager to learn and collaborate, specializing in dynamic applications with a commitment to excellence and innovation.
                 </p>
                 <div className='flex flex-row justify-start mt-8'>
                     <HandelTabButton 
