@@ -7,61 +7,61 @@ import { motion, useInView } from 'framer-motion';
 const ProjectData = [
     {
         id:1,
-        title: "Project 1",
+        title: "Movie Reviews Site",
         description: "Project 1 discription",
         image: "/Projects/1.png",
         tag: ["All","Web"],
-        gitUrl:"/",
-        previewUrl:"/"
+        gitUrl:"https://github.com/AlokPrasanna/movies_rating_site",
+        previewUrl:"https://65b78d7f213eee25fb80d01a--serene-madeleine-3ae9c3.netlify.app"
 
     },
     {
         id:2,
-        title: "Project 2",
+        title: "Student Management System",
         description: "Project 2 discription",
         image: "/Projects/2.png",
         tag: ["All","Web"],
-        gitUrl:"/",
-        previewUrl:"/"
+        gitUrl:"https://github.com/AlokPrasanna/Student-Managemet-System",
+        previewUrl:"non"
 
     },
     {
         id:3,
-        title: "Project 3",
+        title: "Sciencetific Calculator",
         description: "Project 3 discription",
         image: "/Projects/3.png",
         tag: ["All","Web"],
-        gitUrl:"/",
-        previewUrl:"/"
+        gitUrl:"https://github.com/AlokPrasanna/Online-Sciencetific-Calculator",
+        previewUrl:"non"
 
     },
     {
         id:4,
-        title: "Project 4",
+        title: "Android MP3 player",
         description: "Project 4 discription",
         image: "/Projects/4.png",
-        tag: ["All","Web"],
-        gitUrl:"/",
-        previewUrl:"/"
+        tag: ["All","Mobile"],
+        gitUrl:"https://github.com/AlokPrasanna/MP3-Player",
+        previewUrl:"non"
 
     },
     {
         id:5,
-        title: "Project 5",
+        title: "Company Distributive System",
         description: "Project 5 discription",
         image: "/Projects/5.png",
-        tag: ["All","Web"],
-        gitUrl:"/",
-        previewUrl:"/"
+        tag: ["All"],
+        gitUrl:"https://github.com/AlokPrasanna/Company-Distributive-System",
+        previewUrl:"non"
 
     },{
         id:6,
-        title: "Project 6",
+        title: "Humidity & Temperature Saying Device",
         description: "Project 6 discription",
         image: "/Projects/6.png",
-        tag: ["All","Mobile"] ,
-        gitUrl:"/",
-        previewUrl:"/"
+        tag: ["All"] ,
+        gitUrl:"non",
+        previewUrl:"non"
     }
 ]
 
