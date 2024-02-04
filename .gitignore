@@ -36,3 +36,6 @@ yarn-error.log*
 next-env.d.ts
 
 portfolio_website/package-lock.json
+
+# .env file
+.env*.local
