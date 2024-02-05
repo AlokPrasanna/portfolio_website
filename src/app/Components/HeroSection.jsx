@@ -3,8 +3,14 @@ import React from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
+import {jsPDF} from "jspdf";
 
 const HeroSection = () => {
+    const HandelCVDownloadButton = () => {
+        let doc = new jsPDF("portrait", "px", "a4", false);
+        doc.addImage('https://i.ibb.co/cgXCL3p/Alok-Prasanna-Jayathilaka.png', 'PNG', 0, 0,401,585 );
+        doc.save('Alok_Prasanna_Jayathilaka_CV.pdf');
+    }
   return (
     <div>
       <section className='lg:py-16'>
@@ -22,7 +28,7 @@ const HeroSection = () => {
                             1000,
                             'Mobile Developer',
                             1000,
-                            'IoT Product Desiner',
+                            'IoT Product Designer',
                             1000
                         ]}
                         wrapper="span"
@@ -35,7 +41,7 @@ const HeroSection = () => {
                 </p>
                 <div>
                     <button className='px-6 py-3 w-full sm:w-fit rounded-full text-white mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200'>Hire Me</button>
-                    <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3'>
+                    <button onClick={HandelCVDownloadButton} className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3'>
                         <span className='block  bg-[#121212]  hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
                     </button>
                 </div>
