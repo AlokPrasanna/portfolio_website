@@ -19,7 +19,7 @@ const ProjectData = [
         id:2,
         title: "Student Management System",
         description: "Project 2 discription",
-        image: "/Projects/2.png",
+        image: "/Projects/2.jpg",
         tag: ["All","Web"],
         gitUrl:"https://github.com/AlokPrasanna/Student-Managemet-System",
         previewUrl:"non"
