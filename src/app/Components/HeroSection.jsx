@@ -18,7 +18,7 @@ const HeroSection = () => {
             <motion.div initial={{opacity:0, scale:0.5}} animate={{opacity:1,scale:1}} transition={{duration:0.5}} className='col-span-8 place-self-center text-center sm:text-left justify-self-start'>
                 <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold'>
                     <span className='text-transparent bg-clip-text bg-gradient-to-br from-primary-400 to-secondary-600'>
-                        Hello,  I'm{" "}
+                        Hello,  I&apos;m{" "}
                     </span><br />
                     <TypeAnimation
                         sequence={[
@@ -37,7 +37,7 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6'>
-                I am a versatile developer with a passion for crafting engaging digital experiences. With expertise in web, mobile, and IoT development, I specialize in bringing ideas to life through innovative solutions. Let's work together to build something amazing!
+                I am a versatile developer with a passion for crafting engaging digital experiences. With expertise in web, mobile, and IoT development, I specialize in bringing ideas to life through innovative solutions. Let&apos;s work together to build something amazing!
                 </p>
                 <div>
                     <button className='px-6 py-3 w-full sm:w-fit rounded-full text-white mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200'>Hire Me</button>
