@@ -7,6 +7,10 @@ import MenuOverlay from './MenuOverlay';
 
 const NavLinks = [
     {
+        title:"Home",
+        id:"home"
+    },
+    {
         title:"About",
         id:"about"
     },
@@ -51,7 +55,7 @@ const NavigationBar = () => {
         <div className='menu hidden md:block md:w-auto' id="navbar">
             <ul className='flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0'>
                 {NavLinks.map((link,index) => (
-                    <li key={index}><div className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white cursor-pointer " onClick={() => ScrollToSection(link.id)}>{link.title}</div></li>
+                    <li key={index} onClick={() => ScrollToSection(link.id)}><NavigationLinks className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white cursor-pointer " title={link.title} /></li>
                 ))}
             </ul>
         </div>

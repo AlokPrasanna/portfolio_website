@@ -27,8 +27,7 @@ const TabData =[
         title: "Education",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Henegama Central College </li>
-                <li>University of Sri Jayewardenapura</li>
+                <li>B.Sc. Physical Science University of Sri Jayewardenepura </li>
             </ul>
         )
 
@@ -38,7 +37,7 @@ const TabData =[
         title: "Experience",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Web Developer Intern in Neo Space lab of Open University</li>
+                <li>Web Developer Intern in Neo Space lab of The Open University</li>
             </ul>
         )
 

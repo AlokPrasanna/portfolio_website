@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-const NavigationLinks = ({href , title}) => {
+const NavigationLinks = ({title}) => {
     return (
-        <Link href={href} className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white  ">
+        <div className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white cursor-pointer  ">
             {title}
-        </Link>
+        </div>
     );
 };
 
